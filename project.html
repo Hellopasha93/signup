@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>Вконтакте</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+            <div class="form-container sign-up">
+                <form>
+                    <h1>Создать аккаунт</h1>
+                    <div class="social-icons">
+                        <a href="#" class="social-icons"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="social-icons"><i class="bx bxl-github"></i></a>
+                        <a href="#" class="social-icons"><i class="bx bxl-google"></i></a>
+                        <a href="#" class="social-icons"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                    <span>Регистрация с E-mail:</span>
+                    <input type="text" placeholder="Name...">
+                    <input type="email" placeholder="Enter E-mail...">
+                    <input type="password" placeholder="Enter password...">
+                    <button>Создать аккаунт</button>
+                </form>
+            </div>
+            
+            <div class="form-container sign-in">
+                <form>
+                    <h1>Войти в аккаунт</h1>
+                    <div class="social-icons">
+                        <a href="#" class="social-icons"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="social-icons"><i class="bx bxl-github"></i></a>
+                        <a href="#" class="social-icons"><i class="bx bxl-google"></i></a>
+                        <a href="#" class="social-icons"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                    <span>Вход с E-mail:</span>
+                    <input type="email" placeholder="Enter E-mail...">
+                    <input type="password" placeholder="Enter password...">
+                    <a href="#">Забыли пароль?</a>
+                    <button>Войти</button>
+                </form>
+            </div>
+            
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Добро пожаловать Вконтакте!</h1>
+                        <p>Войти с помощью логина и пароля</p>
+                        <button class="hidden" id="login">Войти</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Регистрация Вконтакте!</h1>
+                        <p>Заходи и общайся с людьми из твоего города</p>
+                        <button class="hidden" id="register">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
